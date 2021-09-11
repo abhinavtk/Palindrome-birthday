@@ -6,11 +6,13 @@ function reverseStr(date){
     var str = date;
     var charList = str.split('');
     var reversedList = charList.reverse();
-    reversedList.join('');
+    var reversedStr = reversedList.join('');
+    return reversedStr;
 }
 
 function checkPalindrome(date){
-    return date===reverseStr(date);  
+    var reversedDate = reverseStr(date);
+    return date==reversedDate;  
 }
 
 function dateAsString(date){
@@ -74,7 +76,7 @@ function clickHandler(){
     var isPalindrome = false;
 
     for (let i = 0; i < list.length; i++) {
-    console.log(list[i]);
+
       if (list[i]) {
         isPalindrome = true;
         break;
