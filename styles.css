@@ -9,7 +9,7 @@ body{
     color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin: 0;
+    margin: auto;
 }
 
 .container {
@@ -26,6 +26,7 @@ label {
 input {
     display: block;
     margin: auto;
+    width: 30%;
     
 }
 button {
