@@ -83,10 +83,10 @@ function clickHandler(){
       }
     }
     if (!isPalindrome){
-        output.innerText = "Not palindrome";
+        output.innerText = "Your birthday is Not Palindrome 😅";
     }
     else{
-        output.innerText = "Palindrome";
+        output.innerText = "Your birthday is Palindrome 🥳🥳";
     }
 }
 
